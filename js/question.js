@@ -27,7 +27,7 @@ if (noButton && noButtonArea && noButtonMessage) {
 
     const messages = [
         "No 🙈",
-        "hehe, nice try ♡",
+        "haha, nice try ♡",
         "not so fast! ♡",
         "almost got me 🙈",
         "okay, you're persistent! ♡"
@@ -118,7 +118,7 @@ if (noButton && noButtonArea && noButtonMessage) {
         noButtonMessage.textContent =
             attempts >= 4
                 ? "I just want you to feel comfortable answering. ♡"
-                : "hehe ♡";
+                : "hahaha ♡";
     }
 
     // Desktop: move when the cursor enters the button.
